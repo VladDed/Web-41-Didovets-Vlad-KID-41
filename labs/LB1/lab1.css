@@ -1,0 +1,77 @@
+body {
+  background-image: url('background\ Lb1.jpg');
+ /* background-attachment: fixed; /* Фіксувати фон при прокручуванні */
+  color: #ffff00; /* Колір тексту на фоні */
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+form {
+  background-color: rgba(192, 192, 192, 0.7); /* Сірий фон з прозорістю */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Додати тінь до форми */
+}
+
+label, input, select {
+  margin: 10px; 
+}
+
+/* Стилі для полів введення 
+{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Стилі для полів вводу */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Стилі для полів введення імені та прізвища */
+input#Ім_імя, input#Призвіще {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Стилі для кнопки 
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+/* Стилі для кнопки */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Стилі для міток */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}

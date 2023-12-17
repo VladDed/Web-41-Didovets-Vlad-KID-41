@@ -1,0 +1,40 @@
+body {
+    background-image: url('../partials/background.jpg');
+    color: #ffff00; /* Колір тексту на фоні */
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+  }
+  div {
+    text-align: center;
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the text */
+h1 {
+    padding-top: 50px;
+    text-align: center; 
+    margin-left: 20px; 
+    font-size: 24px;
+    font-weight: 700; 
+}
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.image {
+    max-width: 500px;
+    border-radius: 50%;
+}

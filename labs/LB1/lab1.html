@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./lab1.css">
+    <title>LAB_1 Didovets</title>
+</head>
+<body>
+  
+    
+    <h1>Лабораторна робота №1</h1>
+    
+    <!-- Форма реєстрації -->
+    <form action="https://webhook.site/61bccc90-4f7a-46a7-85cb-ab61f71467a7" method="post">
+        <label for="Ім'я">Ім'я:</label>
+        <input type="text" id="Ім'я" name="Ім'я" required>
+    
+        <label for="Призвіще">Прізвище:</label>
+        <input type="text" id="Призвіще" name="Призвіще" required>
+    
+        <label for="email">Адреса електронної пошти:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required>
+    
+        <label for="confirmPassword">Підтвердження паролю:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+    
+        <label for="birthdate">Дата народження:</label>
+        <input type="date" id="birthdate" name="birthdate">
+    
+        <label for="gender">Стать:</label>
+        <select id="gender" name="gender">
+            <option value="male">Чоловік</option>
+            <option value="female">Жінка</option>
+            <option value="other">Інше</option>
+        </select>
+    
+        <input type="submit" value="Зареєструватися">
+    </form>
+</body>
+</html>

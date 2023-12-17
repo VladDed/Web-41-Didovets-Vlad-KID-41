@@ -1,0 +1,81 @@
+/* Завдання 1 */
+li:first-child {
+    font-weight: bold;
+}
+
+/* Завдання 2 */
+nav ul li:last-child a {
+    color: red;
+}
+
+/* Завдання 3 */
+input[disabled] {
+    background-color: grey;
+}
+
+/* Завдання 4 */
+.container > div.box > p {
+    font-weight: bold;
+}
+
+/* Завдання 5 */
+a[href^="https"] {
+    color: green;
+}
+
+/* Завдання 6 */
+input[type="text"] {
+    border: 1px solid blue;
+}
+
+/* Завдання 7 */
+li:first-child,
+li:last-child {
+    font-size: 24px;
+}
+
+/* Завдання 8 */
+.container > div > p {
+    font-size: 16px;
+}
+
+/* Завдання 9 */
+input[type="checkbox"]:checked {
+    background-color: lightblue;
+}
+
+/* Завдання 10 */
+li > a {
+    text-decoration: underline;
+}
+
+/* Завдання 11 */
+li:nth-child(even) {
+    font-weight: bold;
+}
+
+/* Завдання 12 */
+input[type="text"]:not([disabled]) {
+    background-color: gray;
+}
+
+/* Завдання 13 */
+.container > p:first-child,
+section > p:first-child {
+    font-size: 24px;
+}
+
+/* Завдання 14 */
+.special + li {
+    text-decoration: line-through;
+}
+
+/* Завдання 15 */
+p::first-letter {
+    font-size: 36px;
+}
+
+/* Завдання 16 */
+a::after {
+    content: " ↗";
+}

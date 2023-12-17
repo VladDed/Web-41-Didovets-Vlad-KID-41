@@ -1,0 +1,79 @@
+html,body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+	background: linear-gradient(-45deg, #ee7752, #ea77a3, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 50s ease infinite;
+	height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --textColor: #91917819;
+    --white: #fff;
+    --footer-color: orange;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+h1 {
+    color: var(--white);
+}
+
+.practic__tasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 10%;
+    
+}
+
+.div__tasks {
+    margin: auto;
+    margin-top: 5%;
+}
+
+.div__tasks:first-child {
+    margin-top: 0;
+}
+
+.prTask {
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.task4 {
+    padding-left: 15px;
+}
+
+.task4:first-child {
+    padding-left: 0;
+}
